@@ -200,14 +200,85 @@ ctx.strokeStyle = "green"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
-&lt;/script&gt;</summary></entry><entry><title>2016fallcp期末考週</title><link href="./2016fallcpqi-mo-kao-zhou.html" rel="alternate"></link><published>2017-01-09T13:37:00+08:00</published><updated>2017-01-09T13:37:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2017-01-09:./2016fallcpqi-mo-kao-zhou.html</id><summary type="html">&lt;p&gt;2016fallcp期末考週&lt;/p&gt;
+&lt;/script&gt;</summary></entry><entry><title>2016fallcp期末考週</title><link href="./2016fallcpqi-mo-kao-zhou.html" rel="alternate"></link><published>2017-01-09T13:37:00+08:00</published><updated>2017-01-09T13:37:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2017-01-09:./2016fallcpqi-mo-kao-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
+&lt;p&gt;2016fallcp期末考週&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
 
 &lt;p&gt;w17週心得與程式範例:&lt;/p&gt;
 &lt;p&gt;放假!!!&lt;/p&gt;
 &lt;p&gt;w16週心得與程式範例:&lt;/p&gt;
+&lt;p&gt;猜電腦所選定的某一範圍中的整數&lt;/p&gt;
+&lt;div id="con"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import alert
+from browser import document
+from browser import html
+import random
+
+
+
+def b2(e):
+    alert("按確定")  
+    標準答案 = random.randint(1, 100)
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 = 1
+
+    while 標準答案 != 你猜的數字:
+        if 標準答案 &lt; 你猜的數字:   
+            print(你猜的數字,"太大了，再猜一次 :)加油")
+            con1&lt;=str(你猜的數字)
+        else:
+            print(你猜的數字,"太小了，再猜一次 :)加油")
+        你猜的數字 = int(input("請輸入您所猜的整數:"))
+        猜測次數 += 1       
+    print("猜對了！總共猜了", 猜測次數, "次")
+document["b2"].bind("click",b2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="b2"&gt;猜數字&lt;/button&gt;&lt;/p&gt;
+
 &lt;p&gt;心得:程式碼非常的難,不過多練習應該能更熟練這些指令&lt;/p&gt;
-&lt;p&gt;w15週心得與程式範例:&lt;/p&gt;</summary></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2016-11-28:./w12.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;p&gt;w15週心得與程式範例:&lt;/p&gt;
+&lt;script type="text/python3"&gt;
+from browser import document as do
+from browser import html
+c = do["con"]
+def compa(e):
+    your_input = input("請輸入一個整數!")
+    # 如何判斷所輸入的整數比 10 大
+    try:
+        if int(your_input) &gt; 10:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
+        else:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+    except:
+        c &lt;= "請輸入整數!!" + html.BR()
+
+#print("test")
+'''
+for i in range(5):
+    c &lt;= "test" + html.BR()
+'''
+do["b1"].bind("click", compa)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="b1"&gt;compa&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;心得:有點困難多練習&lt;/p&gt;</summary></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2016-11-28:./w12.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程,導入資料庫,啟動,然後引用各種模組開始繪圖&lt;/p&gt;
