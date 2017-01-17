@@ -200,7 +200,13 @@ ctx.strokeStyle = "green"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
-&lt;/script&gt;</summary></entry><entry><title>2016fallcp期末考週</title><link href="./2016fallcpqi-mo-kao-zhou.html" rel="alternate"></link><published>2017-01-09T13:37:00+08:00</published><updated>2017-01-09T13:37:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2017-01-09:./2016fallcpqi-mo-kao-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+#自己畫的
+&lt;/script&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/199822231" width="640" height="349" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/199822231"&gt;2017-01-17 21-33-54&lt;/a&gt; from &lt;a href="https://vimeo.com/user57411976"&gt;40523227&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>2016fallcp期末考週</title><link href="./2016fallcpqi-mo-kao-zhou.html" rel="alternate"></link><published>2017-01-09T13:37:00+08:00</published><updated>2017-01-09T13:37:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2017-01-09:./2016fallcpqi-mo-kao-zhou.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;2016fallcp期末考週&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
@@ -278,7 +284,10 @@ do["b1"].bind("click", compa)
 
 &lt;p&gt;&lt;button id="b1"&gt;compa&lt;/button&gt;&lt;/p&gt;
 
-&lt;p&gt;心得:有點困難多練習&lt;/p&gt;</summary></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2016-11-28:./w12.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;p&gt;心得:有點困難多練習&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/199820643" width="640" height="328" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/199820643"&gt;2017-01-17 21-15-56&lt;/a&gt; from &lt;a href="https://vimeo.com/user57411976"&gt;40523227&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2016-11-28T12:00:00+08:00</published><updated>2016-11-28T12:00:00+08:00</updated><author><name>s40523227</name></author><id>tag:,2016-11-28:./w12.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程,導入資料庫,啟動,然後引用各種模組開始繪圖&lt;/p&gt;
